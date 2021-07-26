@@ -1,0 +1,223 @@
+@media only screen and (max-width:1024px) {
+        header{
+          height: 80vh;
+        }
+      .mobile-menu span{
+        display: block;
+      }
+      .row{
+        margin: 0 1.5625rem;
+      }
+
+      .hero-text-box {
+        padding: 0rem 5rem;
+        width: 100%;
+        }
+        .main-nav{
+          display: none;
+        }
+        html{
+          font-size: 90%;
+        }
+        .client-photo{
+          width: 100%;
+          float: none;
+          text-align: center;
+        }
+        .client-review{
+         width: 100%;
+         float: none;
+         text-align: center;
+        }
+        .contact-section form{
+           width: 100%;
+           margin-left: 0;
+        }
+}
+@media only screen and (max-width:980px){
+  .span_1_of_4{
+      width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+      margin-left:0;
+    }
+    .box p{
+      margin-top: 0rem;
+      width: 100%;
+      font-size: 1.3rem;
+      width: 100%;
+      }
+
+    html{
+      font-size: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+      header{
+        height: 65vh;
+      }
+    .footer-section .col3{
+      font-size: .9rem;
+    }
+    .footer-section .col1{
+      font-size: .9rem;
+    }
+    .footer-section h3 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .box p {
+    margin-top: 0rem;
+    width: 100%;
+    font-size: 1.3rem;
+    width: 100%;
+      }
+
+      h2{
+        font-size: 2rem;
+      }
+}
+
+@media only screen and (max-width:480px){
+  header{
+    height: 65vh;
+  }
+  .span_1_of_4{
+      width: 100%;
+    }
+  h1 {
+    font-size: 1.5rem;
+   }
+
+  .box p {
+    margin-top: 0rem;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+     }
+     .Service-icon {
+    margin-top: 1.5rem;}
+
+     .team-member {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 1.188rem;
+    }
+    .testimonial .col:nth-child(1),
+    .testimonial .col:nth-child(2),
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+    margin-top: 2.375rem;
+    }
+    .client-review h3 {
+    margin-top: 1rem;
+    }
+    .portfolio-filter button {
+    margin: 2rem .5rem;
+    font-size: 1rem;
+    padding: 0.5rem .5rem;
+    font-weight: bold;
+    }
+  .footer-section h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .footer-section .none{
+    display: none;
+  }
+  .footer-section .col3{
+    text-align: center;
+     display: none;
+  }
+  .footer-section li {
+    display: inline-block;
+    margin: .5rem 1rem;
+     }
+     .footer-section .col:nth-child(3) {
+    text-align: center;
+    }
+    .footer-section li a {
+    font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:375px){
+  .Service-icon{
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+  header {
+    height: 55vh;
+   }
+  .Service-section .box p {
+   font-size: 1.3rem;
+   width: 100%;
+   margin-left: 0;
+   line-height: 1.5rem;
+ }
+ .team-section .box p {
+    margin-top: 0rem;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 0 .5rem;
+}
+ .testimonial .box p {
+   margin-top: 0rem;
+   font-size: 1.3rem;
+   width: 100%;
+   padding: 0rem 0rem;
+   margin-bottom: 3rem;
+ }
+ .testimonial .role{
+ font-size: 1.2rem;}
+
+ .team-section .role{
+   font-size: 1.2rem;
+ }
+  .Service-icon {
+   height: 3.75rem;
+   }
+  html{
+    font-size: 83%;
+      }
+      h3 {
+    font-size: 1.4rem;
+    }
+    .footer-section .col1 {
+    font-size: 1.3rem;}
+}
+@media only screen and (max-width:375px){
+  .portfolio-filter button {
+    margin: 2rem .5rem;
+    font-size: .9rem;}
+}
+
+@media only screen and (max-width:320px){
+          header {
+        height: 50vh;
+        }
+      html{
+          font-size: 71%;
+         }
+
+      .Service-section.col:nth-child(3){
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+
+      h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+     }
+     .Service-section .box p {
+    font-size: 1.2rem;}
+
+     .social-link ul li a:link i::before {
+    padding: 0.4rem;}
+}

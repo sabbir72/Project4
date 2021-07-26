@@ -314,7 +314,7 @@ display: none;
 }
 .social-link ul li{
   display: inline-block;
-  margin: 0 .5rem;
+  margin: 0rem 0rem;
 }
 .social-link ul li i{
   color:#fff;
